@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      function fn() {
+        var collection = document.getElementsByClassName("dom");
+        var h1 = collection[0];
+        h1.style.color = "Red";
+
+        var p = collection[1];
+        p.style.color = "Red";
+
+        var div = collection[2];
+        div.style.color = "Red";
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1 class="dom">heading 1</h1>
+    <h1>heading 2</h1>
+    <h1>heading 3</h1>
+
+    <p class="dom">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore fuga
+      pariatur adipisci in laudantium rerum natus molestiae, ea ad placeat odit
+      consectetur consequuntur impedit modi ut, voluptatibus iure laboriosam
+      magnam.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore fuga
+      pariatur adipisci in laudantium rerum natus molestiae, ea ad placeat odit
+      consectetur consequuntur impedit modi ut, voluptatibus iure laboriosam
+      magnam.
+    </p>
+
+    <div class="dom">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque mollitia
+      tempore dolore dicta eos fugiat neque sit quas voluptates. Eligendi,
+      voluptatem ea. Ipsum excepturi, vitae quo saepe, dolor iure quam obcaecati
+      officia doloribus quos odit? Tempore laboriosam harum praesentium
+      similique cupiditate illo doloribus labore ut. Ipsam vero commodi sint
+      earum, ipsa repellat quam explicabo distinctio ex quaerat repudiandae
+      numquam nemo fuga totam sed reiciendis soluta sapiente repellendus,
+      molestiae voluptates officia adipisci aliquam? Aspernatur quibusdam error
+      dolorem soluta quisquam atque unde ipsa distinctio qui quidem! Est sed
+      doloribus ad qui quo temporibus at, dolores delectus aut error, placeat
+      porro. Inventore, autem?
+    </div>
+
+    <button onclick="fn()">Submit</button>
+  </body>
+</html>

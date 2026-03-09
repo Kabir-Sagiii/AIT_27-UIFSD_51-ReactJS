@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      function fn() {
+        var collectionOf_DomElement = document.querySelectorAll("h1");
+        console.log(collectionOf_DomElement);
+
+        var firstH2DomElement = collectionOf_DomElement[0];
+        var secondH2DomElement = collectionOf_DomElement[1];
+        var thirdH2DomElement = collectionOf_DomElement[2];
+
+        secondH2DomElement.style.color = "blue";
+        firstH2DomElement.style.color = "green";
+        thirdH2DomElement.style.color = "red";
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>heading 1</h1>
+    <h1>heading 2</h1>
+    <h1>heading 3</h1>
+
+    <button onclick="fn()">Submit</button>
+  </body>
+</html>

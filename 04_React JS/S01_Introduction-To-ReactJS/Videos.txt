@@ -1,10 +1,3 @@
-Operators 's
-===========
-https://www.youtube.com/live/22wTA3vI_jQ?si=YpjPsbmZzxDP80de
-
-https://www.youtube.com/live/V7fhastQIPc?si=kQXRy8vxzF2AZa0q
-
-
 
 Why we have to use React JS for Creating UI
 Drawback and Advantages of Creating UI using HTML and JS
@@ -16,8 +9,3 @@ https://youtu.be/TbAE4FSWb9s
 React Element
 ===============
 https://youtu.be/a8pgtGI0vGs
-
-
-
-
-

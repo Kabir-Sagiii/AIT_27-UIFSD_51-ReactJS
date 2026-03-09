@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      function updateUI() {
+        // access the h1 Dom Element
+        var h1_domElement = document.querySelector("h1");
+        var count = 0;
+        //Print all dom properties
+        for (var key in document) {
+          console.log(key);
+          count++;
+        }
+
+        console.log(count);
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Document Object Model</h1>
+
+    <button onclick="updateUI()">Modify</button>
+  </body>
+</html>

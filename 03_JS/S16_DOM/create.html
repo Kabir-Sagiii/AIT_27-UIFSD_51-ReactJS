@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      function createPara() {
+        var p_DomElement = document.createElement("p");
+        p_DomElement.innerText = "This is a Paragraph element created using JS";
+
+        var img_DomElement = document.createElement("img");
+        img_DomElement.width = "200";
+        img_DomElement.height = "200";
+        img_DomElement.src =
+          "https://static.xx.fbcdn.net/rsrc.php/y0/r/U45qBJmWVHU.webp";
+
+        img_DomElement.onclick = function () {
+          var h1_domElement = document.querySelector("h1");
+
+          h1_domElement.remove();
+          img_DomElement.remove();
+          p_DomElement.remove();
+        };
+
+        var divDomElement = document.querySelector("div");
+
+        divDomElement.appendChild(p_DomElement);
+        divDomElement.appendChild(img_DomElement);
+      }
+    </script>
+  </head>
+
+  <body>
+    <div>
+      <h1>Dom Element Creation</h1>
+      <button onclick="createPara()">Create Dom Element</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      function updateUI() {
+        // access the h1 Dom Element
+        var h1_domElement = document.querySelector("h1");
+
+        //Modify the InnerText
+        h1_domElement.innerText = "Welcome to JS DOM concept";
+        h1_domElement.style.color = "red";
+        h1_domElement.style.backgroundColor = "black";
+        h1_domElement.style.padding = "20px";
+
+        var button_DomElement = document.querySelector("#btn");
+        button_DomElement.innerText = "Dom Modified";
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Document Object Model</h1>
+
+    <button id="btn" onclick="updateUI()">Modify</button>
+  </body>
+</html>
