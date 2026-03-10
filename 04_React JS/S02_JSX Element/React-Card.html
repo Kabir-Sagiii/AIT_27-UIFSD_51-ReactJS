@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./Card.css" />
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script>
+      //React Code
+      var div = React.createElement("div", { id: "card" }, [
+        React.createElement("img", {
+          src: "https://wallpapers.com/images/hd/professional-profile-pictures-1080-x-1080-460wjhrkbwdcp1ig.jpg",
+          width: "100%",
+          height: "230",
+        }),
+        React.createElement("h2", null, "Sid Jaiswal"),
+        React.createElement(
+          "p",
+          null,
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,officia inventore.",
+        ),
+      ]);
+
+      ReactDOM.render(div, document.getElementById("root"));
+    </script>
+  </body>
+</html>
