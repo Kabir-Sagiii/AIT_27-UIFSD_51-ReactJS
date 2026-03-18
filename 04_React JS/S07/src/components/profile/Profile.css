@@ -1,0 +1,39 @@
+.profile {
+  width: 900px;
+  height: 450px;
+  margin: 30px auto;
+  box-shadow: 0 0 10px black;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.profile div:nth-child(2) {
+  padding-left: 30px;
+}
+.profile dl {
+  margin-top: 30px;
+}
+
+dt {
+  font-size: 21px;
+  margin-bottom: 5px;
+  color: tomato;
+}
+dd {
+  margin-bottom: 15px;
+}
+.profile button {
+  border-radius: 5px;
+  border: none;
+  padding: 15px 30px;
+  background-color: tomato;
+  color: white;
+}
+
+.lightTheme {
+  background-color: white;
+  color: black;
+}
+.darkTheme {
+  background-color: black;
+  color: white;
+}

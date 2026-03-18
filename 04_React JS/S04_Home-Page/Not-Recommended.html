@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./Home.css" />
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      function Home() {
+        return (
+          <div>
+            <div id="header">
+              <div id="brandName">
+                <h1>Dude's - Mart</h1>
+              </div>
+              <div id="links">
+                <a href="">Home</a>
+                <a href="">Profile</a>
+                <a href="">Products</a>
+                <a href="">Contactus</a>
+                <a href="">Carts</a>
+                <button> Logout </button>
+              </div>
+            </div>
+            <div id="main">
+              <section id="section-1" className="flexCenter ">
+                <h1>Rainbow Adventure 🌈</h1>
+                <p>
+                  A bright and cheerful kids background featuring colorful
+                  rainbows, fluffy clouds, playful slides, and happy cartoon
+                  animals. Perfect for children’s wallpapers, school materials,
+                  birthday invitations, and fun learning designs.
+                </p>
+              </section>
+              <section id="section-2" className="flexCenter ">
+                <h1>Magical Candy 🍭</h1>
+                <p>
+                  A sweet and dreamy kids background filled with giant candies,
+                  lollipops, chocolate rivers, and pastel clouds.
+                </p>
+              </section>
+              <section id="section-3" className="flexCenter ">
+                <h1>Cute Jungle Friends</h1>
+                <p>
+                  An adorable jungle-themed background with friendly cartoon
+                  animals like elephants, giraffes, lions, and monkeys
+                  surrounded by green trees and tropical leaves.
+                </p>
+              </section>
+            </div>
+          </div>
+        );
+      }
+
+      ReactDOM.render(<Home />, document.getElementById("root"));
+    </script>
+  </body>
+</html>

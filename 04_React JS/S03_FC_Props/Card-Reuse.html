@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./Card.css" />
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      //Functional Component
+      function CreateCard(data) {
+        //data = {name:"---",url:"-----"}
+        return (
+          <div id="card">
+            <img src={data.url} width="100%" height="230" alt="" />
+            <h2>{data.name}</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+              officia inventore.
+            </p>
+          </div>
+        );
+      }
+
+      function App() {
+        return (
+          <div id="container">
+            <CreateCard
+              name={"Aditya Reddy"}
+              url={
+                "https://wallpapers.com/images/hd/professional-profile-pictures-1080-x-1080-460wjhrkbwdcp1ig.jpg"
+              }
+            />
+
+            <CreateCard
+              name={"Rajiv Mehta"}
+              url={
+                "https://static.vecteezy.com/system/resources/previews/029/891/975/non_2x/business-american-man-in-light-cream-ai-generative-free-photo.jpg"
+              }
+            ></CreateCard>
+
+            <CreateCard
+              name={"Pari Sharma"}
+              url={
+                "https://static.vecteezy.com/system/resources/previews/025/474/309/large_2x/portrait-of-a-professional-woman-in-a-suit-business-woman-standing-in-an-office-ai-generated-photo.jpg"
+              }
+            />
+
+            <CreateCard
+              name={"Pooja Verma"}
+              url={
+                "https://static.vecteezy.com/system/resources/previews/053/630/758/non_2x/a-beautiful-young-business-woman-in-a-suit-photo.jpeg"
+              }
+            />
+          </div>
+        );
+      }
+
+      ReactDOM.render(<App />, document.getElementById("root"));
+    </script>
+  </body>
+</html>
