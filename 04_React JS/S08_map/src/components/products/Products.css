@@ -1,0 +1,10 @@
+.products {
+  padding: 50px;
+}
+.products h1 {
+  color: blue;
+  margin-bottom: 20px;
+}
+.products button {
+  padding: 11px 30px;
+}
