@@ -1,0 +1,31 @@
+.ad {
+  width: 1000px;
+  height: 500px;
+
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+}
+.mainAd {
+  grid-column: 1/4;
+  grid-row: 1/5;
+}
+
+.subAd1 {
+  grid-column: 4/6;
+  grid-row: 1/3;
+}
+.subAd2 {
+  grid-column: 4/6;
+  grid-row: 3/5;
+}
+
+.mainAd img,
+.subAd1 img,
+.subAd2 img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(70%);
+}
