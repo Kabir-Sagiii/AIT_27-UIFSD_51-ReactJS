@@ -1,0 +1,46 @@
+#header {
+  height: 90px;
+  box-shadow: 0 0 10px black;
+  display: grid;
+  grid-template-columns: 43% 37% 20%;
+}
+
+#header div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header div:nth-child(1) h1 {
+  font-size: 52px;
+  color: tomato;
+  font-style: italic;
+}
+#header div:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+#header div:nth-child(2) a {
+  margin-right: 50px;
+
+  font-size: 18px;
+  text-decoration: none;
+}
+#header div:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header div:nth-child(3) button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+#header div:nth-child(3) i {
+  font-size: 27px;
+  margin-right: 20px;
+  color: red;
+}

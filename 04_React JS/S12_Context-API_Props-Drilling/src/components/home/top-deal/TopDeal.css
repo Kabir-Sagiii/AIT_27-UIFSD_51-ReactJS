@@ -1,0 +1,14 @@
+.top-deal-container {
+  width: 97%;
+  margin: 50px auto;
+}
+.top-deal-container h1 {
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px black;
+  font-size: 37px;
+}
+.top-deal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
