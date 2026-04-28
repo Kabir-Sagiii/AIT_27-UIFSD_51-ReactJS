@@ -1,0 +1,7 @@
+url
+====
+https://fakestoreapi.com/products
+
+request type
+=============
+get

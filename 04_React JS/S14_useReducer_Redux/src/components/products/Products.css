@@ -1,0 +1,45 @@
+.categories {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1100px;
+  margin: 50px auto;
+}
+.categories div {
+  text-align: center;
+}
+.categories img {
+  border-radius: 50%;
+  margin-bottom: 13px;
+  box-shadow: 0 0 10px black;
+}
+
+.categories h2 {
+  color: tomato;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.product-card {
+  text-align: center;
+  padding: 10px;
+  width: 310px;
+  box-shadow: 0 0 10px black;
+}
+.product-card h3 {
+  margin: 20px 0px;
+  color: tomato;
+}
+.product-card p {
+  margin-bottom: 25px;
+  font-style: italic;
+}
+.product-card button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: tomato;
+  color: white;
+}
